@@ -30,7 +30,7 @@ Production output is committed to `docs/`. GitHub Pages serves `main /docs`. All
 
 ## Art and content
 
-- Hero: original built-in image-generation output, visually checked; source PNG and exact prompt/provenance under `assets/`
+- Hero: original built-in image-generation output, visually checked; exact prompt/provenance under `assets/`. The lossless source PNG is retained in the build workspace; the optimized WebP is committed
 - Runtime hero: 101 KB WebP, at `public/images/`
 - 3D: procedural geometry authored in `src/scene.js`, not a downloaded product or certified vehicle model
 - Copy: original Russian editorial writing, scientific records sourced to MBARI; zones/light sourced to NOAA
