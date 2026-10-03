@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {depthAtProgress,progressAtDepth,chapterAtDepth,DEPTH_STOPS} from '../src/dive-math.js';
+test('four ocean layers match depth boundaries',()=>{for(let i=0;i<5;i++)assert.equal(depthAtProgress(i/4),DEPTH_STOPS[i]);assert.equal(chapterAtDepth(199),0);assert.equal(chapterAtDepth(200),1);assert.equal(chapterAtDepth(1000),2);assert.equal(chapterAtDepth(4000),3);});
+test('anchor mapping is reversible at all observed depths',()=>{for(const d of [0,50,200,600,900,1000,2000,4000,4800])assert.ok(Math.abs(depthAtProgress(progressAtDepth(d))-d)<1e-7);});
+test('progress is bounded and monotonic in both directions',()=>{assert.equal(depthAtProgress(-1),0);assert.equal(depthAtProgress(2),4800);for(let i=1;i<=1000;i++)assert.ok(depthAtProgress(i/1000)>=depthAtProgress((i-1)/1000));for(let i=1000;i>0;i--)assert.ok(depthAtProgress(i/1000)>=depthAtProgress((i-1)/1000));});

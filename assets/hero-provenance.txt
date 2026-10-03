@@ -1,0 +1,19 @@
+ABYSS cinematic submersible hero
+Generated with built-in image_gen tool on 2026-10-03 UTC.
+Generated source: /workspace/scratch/f0f0fa799f63/generated_images/exec-b339e4e8-7778-494a-be89-9b1931cfb92b.png
+Project asset: public/images/abyss-submersible-hero.png
+Output: 1672 × 941 RGB PNG.
+Visually inspected: asymmetric lower-right submersible, dark left and upper negative space, two cold searchlights, restrained orange titanium subject, no text/interface/logos.
+
+Prompt:
+Use case: photorealistic-natural
+Asset type: cinematic wide hero photograph for a premium Russian deep-ocean expedition portfolio named ABYSS.
+Primary request: one visually extraordinary horizontal 1536-style editorial underwater photograph of a titanium and restrained orange small three-person research submersible suspended in the vast abyssal ocean.
+Scene/backdrop: immense near-black deep navy blue open water with no seabed visible. Tiny marine snow particles suspended in water, varying in focus, almost no ambient light. Convey isolation, scale and 6000-meter depth.
+Subject: a technically believable compact research submersible, pressure sphere and dark round acrylic observation port, brushed titanium hull, a few rust/tangerine-painted fairings, mechanical arms, ballast details and small scientific instruments. No occupants discernible.
+Style/medium: true museum-quality expedition documentary photography, photorealistic and tactile, sophisticated natural grain, credible engineering detail, not a glossy 3D illustration.
+Composition/framing: wide landscape frame. Submersible occupies only around a quarter of the canvas and is placed in the lower-right quadrant, angled subtly toward the left. Preserve a vast quiet dark-water negative-space region across the upper-left and left-middle for typography overlay. Strong asymmetric art direction. Vehicle is sharp while distance fades into black.
+Lighting/mood: cold pale blue searchlights cast two powerful long volumetric light cones diagonally into the dark water toward the left and lower-left, catching fine particles. Chiaroscuro; faint icy highlights on titanium; a restrained warm orange practical glint. Awe, tension, silence.
+Color palette: near-black navy, very deep petrol blue, icy pale blue, brushed titanium, small restrained tangerine/rust accents.
+Constraints: no text, no interface, no logo, no watermark, no diver, no bubbles, no surface, no sun rays. Genuine sophisticated photography with clean purposeful composition.
+
