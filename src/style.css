@@ -8,3 +8,31 @@
 html:has(.descent){scroll-padding-top:0}
 
 .species-detail h1{overflow-wrap:anywhere;hyphens:auto}
+
+/* The atlas illustrations follow the archive's restrained pigment palette. */
+.illustrated-atlas .species-row{grid-template-columns:180px 1.1fr 1.25fr .8fr 24px;gap:26px;padding:26px 0;min-width:0}
+.species-portrait,.detail-portrait{margin:0;position:relative;background:radial-gradient(ellipse at 50% 55%,#15354255,transparent 75%),#07121b;overflow:hidden}
+.species-portrait{height:154px;border:1px solid #29414d77;isolation:isolate}
+.species-portrait img{display:block;width:100%;height:100%;object-fit:contain;transition:transform .55s ease;opacity:.96}
+.species-portrait figcaption{position:absolute;left:10px;bottom:8px;right:10px;font:9px/1.5 monospace;letter-spacing:.06em;color:#a1bcc9;text-shadow:0 1px 6px #07121b}
+.species-row:hover .species-portrait img{transform:scale(1.035)}
+.illustrated-atlas .species-name,.illustrated-atlas .species-summary,.illustrated-atlas .species-depth{min-width:0}
+.illustrated-atlas .species-name h2{overflow-wrap:anywhere;hyphens:auto}
+.illustrated-atlas .species-name p{overflow-wrap:anywhere}
+.detail-hero{display:grid;grid-template-columns:1.05fr 1fr;grid-template-areas:'title art' 'summary art';column-gap:5vw;align-items:center;margin-top:5px}
+.detail-title{grid-area:title;align-self:end;min-width:0}
+.detail-title h1{font-size:clamp(2.6rem,4.8vw,4.5rem);line-height:1.1}
+.detail-title .species-latin{font-size:1.3rem;margin:25px 0}
+.detail-summary{grid-area:summary;align-self:start;max-width:620px;font-size:1.25rem;margin:0}
+.detail-portrait{grid-area:art;border:1px solid #29414d88;min-width:0}
+.detail-portrait img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain}
+.detail-portrait figcaption{padding:18px 23px;border-top:1px solid #29414d88;background:#0c1c2780}
+.detail-portrait figcaption>span{font:10px/1.6 monospace;letter-spacing:.08em;color:var(--orange)}
+.detail-portrait figcaption p{font-size:13px;line-height:1.7;margin:8px 0 0;color:#9fbcc9}
+@media(max-width:1100px){.illustrated-atlas .species-row{grid-template-columns:146px 1.1fr 1.15fr .75fr 20px;gap:18px}.species-portrait{height:140px}.illustrated-atlas .species-name h2{font-size:1.25rem}.illustrated-atlas .species-summary p{font-size:12px}.detail-title h1{font-size:clamp(2.6rem,4.8vw,4rem)}}
+@media(max-width:768px){.illustrated-atlas .species-row{grid-template-columns:130px minmax(0,1fr) 24px;gap:18px;align-items:center;padding:26px 0}.species-portrait{grid-column:1;grid-row:1;height:148px}.illustrated-atlas .species-name{grid-column:2;grid-row:1}.illustrated-atlas .species-summary{grid-column:1/-1;grid-row:2}.illustrated-atlas .species-summary p{font-size:14px;margin-bottom:8px;max-width:570px}.illustrated-atlas .species-depth{grid-column:1/-1;grid-row:3;display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center;max-width:none}.illustrated-atlas .range-bar{margin-top:0}.illustrated-atlas .species-plus{grid-column:3;grid-row:1;align-self:start}.illustrated-atlas .species-name h2{font-size:1.45rem}.detail-hero{grid-template-columns:1fr;grid-template-areas:'title' 'art' 'summary';gap:28px}.detail-title h1{font-size:3.3rem}.detail-title .species-latin{margin:20px 0 0}.detail-summary{font-size:1.25rem}.detail-portrait{max-width:620px;width:100%}.detail-portrait img{max-height:420px}.detail-portrait figcaption{padding:17px 21px}}
+@media(max-width:560px){.illustrated-atlas .species-row{grid-template-columns:112px minmax(0,1fr) 18px;gap:16px}.species-portrait{height:136px}.illustrated-atlas .species-name h2{font-size:1.15rem;line-height:1.3}.illustrated-atlas .species-name p{font-size:11px;margin-top:12px}.illustrated-atlas .species-summary p{font-size:13px}.illustrated-atlas .species-depth{gap:15px}.illustrated-atlas .species-depth strong{font-size:13px}.species-portrait figcaption{font-size:8px;left:8px;bottom:6px}.detail-title h1{font-size:2.6rem}.detail-title .species-latin{font-size:1.15rem}.detail-summary{font-size:1.05rem}.detail-portrait figcaption>span{font-size:9px}.detail-portrait figcaption p{font-size:12px}.detail-hero{gap:25px}}
+@media(max-width:350px){.illustrated-atlas .species-row{grid-template-columns:96px minmax(0,1fr) 16px;gap:12px}.species-portrait{height:130px}.illustrated-atlas .species-name h2{font-size:1.06rem}.illustrated-atlas .species-name p{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.species-portrait img{transition:none}.species-row:hover .species-portrait img{transform:none}}
+.manual-reduced .species-portrait img{transition:none}
+.manual-reduced .species-row:hover .species-portrait img{transform:none}

@@ -10,8 +10,8 @@ ABYSS combines an authored Russian-language narrative, a scroll-driven procedura
 
 - **Descent** — four reversible scroll stages, mapped to scientifically appropriate depth zones, animated camera/vehicle/particle/light states, depth and approximate pressure readouts
 - **Expedition** — route, observation notes, non-disturbance protocol, primary sources and clear boundaries of the concept
-- **Field atlas** — Russian/Latin search, animal-group and overlapping-depth filters, meaningful empty/reset states, query-preserving browser navigation
-- **Species dossiers** — eight actual static routes, size/habitat/depth ranges, detailed adaptations, observation notes, individual MBARI sources
+- **Field atlas** — eight original species-specific illustrations, Russian/Latin search, animal-group and overlapping-depth filters, meaningful empty/reset states, query-preserving browser navigation
+- **Species dossiers** — eight actual static routes with larger illustrated specimen headers, size/habitat/depth ranges, detailed adaptations, observation notes, individual MBARI sources
 - **NEREID** — procedural 3D assembly, controllable exploded view, keyboard-accessible system tabs and reset; conceptual engineering explicitly disclosed
 
 ## Run
@@ -31,6 +31,7 @@ Production output is committed to `docs/`. GitHub Pages serves `main /docs`. All
 ## Art and content
 
 - Hero: original built-in image-generation output, visually checked; exact prompt/provenance under `assets/`. The lossless source PNG is retained in the build workspace; the optimized WebP is committed
+- Creature artwork: eight original generated artistic interpretations, checked for gross species-recognition traits against MBARI references. Illustrated feet/filament-tip errors were corrected before integration. These are not scientific photographs or exact anatomical plates; arm overlap, fine structures and relative scale are not validated. Exact prompts and provenance are in `assets/species-art-provenance.json`; eight optimized content-hashed WebPs total 321,534 bytes
 - Runtime hero: 101 KB WebP, at `public/images/`
 - 3D: procedural geometry authored in `src/scene.js`, not a downloaded product or certified vehicle model
 - Copy: original Russian editorial writing, scientific records sourced to MBARI; zones/light sourced to NOAA

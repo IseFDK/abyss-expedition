@@ -17,7 +17,13 @@
     ],
     "observation": "Наблюдения глубоководных роботов MBARI раскрыли питание морским снегом и несколько способов световой защиты. Диапазон, указанный MBARI; особенно обычен в зоне кислородного минимума",
     "source": "https://www.mbari.org/animal/vampire-squid/",
-    "sourceTitle": "MBARI · Vampire squid"
+    "sourceTitle": "MBARI · Vampire squid",
+    "illustration": {
+      "src": "images/species/vampire-squid-fb1da05631.webp",
+      "alt": "Художественная иллюстрация адского вампира: два плавника, перепонка между руками и два тонких филамента",
+      "feature": "Перепонка между руками и два тонких филамента для сбора морского снега",
+      "reference": "https://www.mbari.org/animal/vampire-squid/"
+    }
   },
   {
     "id": "barreleye",
@@ -37,7 +43,13 @@
     ],
     "observation": "В 2009 году исследователи MBARI продемонстрировали поворот глаз вперёд при кормлении. Диапазон, указанный MBARI для обитания в сумеречной зоне",
     "source": "https://www.mbari.org/animal/barreleye-fish/",
-    "sourceTitle": "MBARI · Barreleye fish"
+    "sourceTitle": "MBARI · Barreleye fish",
+    "illustration": {
+      "src": "images/species/barreleye-6a8fdab9de.webp",
+      "alt": "Художественная иллюстрация макропинны: два зелёных трубчатых глаза внутри прозрачного купола головы",
+      "feature": "Настоящие глаза находятся внутри прозрачного купола и смотрят вверх",
+      "reference": "https://www.mbari.org/animal/barreleye-fish/"
+    }
   },
   {
     "id": "phantom-jelly",
@@ -57,7 +69,13 @@
     ],
     "observation": "ROV Tiburon в Калифорнийском заливе зафиксировал рыбу Thalassobathia pelagica рядом с колоколом и между ротовыми лопастями. Общий диапазон от поверхности до 6 700 м; обычно обитает в полуночной зоне",
     "source": "https://www.mbari.org/animal/giant-phantom-jelly/",
-    "sourceTitle": "MBARI · Giant phantom jelly"
+    "sourceTitle": "MBARI · Giant phantom jelly",
+    "illustration": {
+      "src": "images/species/phantom-jelly-5310306fe8.webp",
+      "alt": "Художественная иллюстрация гигантской медузы-призрака: бордовый колокол и четыре широкие лентовидные лопасти",
+      "feature": "Четыре широкие ротовые лопасти вместо привычной бахромы тонких щупалец",
+      "reference": "https://www.mbari.org/animal/giant-phantom-jelly/"
+    }
   },
   {
     "id": "sea-pig",
@@ -77,7 +95,13 @@
     ],
     "observation": "MBARI десятилетиями наблюдает Scotoplanes на абиссальном дне; зарегистрированы молодые крабы-пассажиры. Диапазон для представителей рода Scotoplanes, а не одного вида",
     "source": "https://www.mbari.org/animal/sea-pig/",
-    "sourceTitle": "MBARI · Sea pig"
+    "sourceTitle": "MBARI · Sea pig",
+    "illustration": {
+      "src": "images/species/sea-pig-82823ea839.webp",
+      "alt": "Художественная иллюстрация морской свиньи: розовая полупрозрачная голотурия на трубчатых ножках, с выростами на спине",
+      "feature": "Трубчатые ножки поддерживают полупрозрачное тело над мягким грунтом",
+      "reference": "https://www.mbari.org/animal/sea-pig/"
+    }
   },
   {
     "id": "bloody-belly",
@@ -97,7 +121,13 @@
     ],
     "observation": "Профиль MBARI описывает красную пигментацию желудка как маскировку биолюминесцентной добычи. Диапазон, указанный MBARI, включая зону кислородного минимума",
     "source": "https://www.mbari.org/animal/bloody-belly-comb-jelly/",
-    "sourceTitle": "MBARI · Bloody-belly comb jelly"
+    "sourceTitle": "MBARI · Bloody-belly comb jelly",
+    "illustration": {
+      "src": "images/species/bloody-belly-68551a4083.webp",
+      "alt": "Художественная иллюстрация кровавобрюхого гребневика: две округлые лопасти, красный желудок и мерцающие гребневые ряды",
+      "feature": "Красный желудок скрывает свечение добычи; ресничные гребни помогают двигаться",
+      "reference": "https://www.mbari.org/animal/bloody-belly-comb-jelly/"
+    }
   },
   {
     "id": "bigfin-squid",
@@ -117,7 +147,13 @@
     ],
     "observation": "В 2026 году MBARI и NOAA наблюдали Magnapinna над абиссальным дном возле подводной горы Дэвидсон. Диапазон профиля MBARI для глубоководных особей; отдельно документирована встреча на 6 212 м; ранние стадии бывают у поверхности",
     "source": "https://www.mbari.org/animal/bigfin-squid/",
-    "sourceTitle": "MBARI · Bigfin squid"
+    "sourceTitle": "MBARI · Bigfin squid",
+    "illustration": {
+      "src": "images/species/bigfin-squid-b3772d7130.webp",
+      "alt": "Художественная иллюстрация большеплавникового кальмара: крупные парные плавники и десять длинных нитей с угловыми изгибами",
+      "feature": "Огромные плавники, локтеобразные изгибы рук и очень длинные тонкие нити",
+      "reference": "https://www.mbari.org/animal/bigfin-squid/"
+    }
   },
   {
     "id": "giant-tubeworm",
@@ -137,7 +173,13 @@
     ],
     "observation": "Исследования гидротермальных сообществ описывают симбиоз рифтий с сероокисляющими бактериями и быстрое заселение новых источников. Диапазон, указанный MBARI для гидротермальных источников",
     "source": "https://www.mbari.org/animal/giant-tubeworm/",
-    "sourceTitle": "MBARI · Giant tubeworm"
+    "sourceTitle": "MBARI · Giant tubeworm",
+    "illustration": {
+      "src": "images/species/giant-tubeworm-7f58ad38ab.webp",
+      "alt": "Художественная иллюстрация колонии рифтий: белые защитные трубки с красными перистыми жаберными пучками на тёмном камне",
+      "feature": "Красные жаберные пучки выступают из белых защитных трубок",
+      "reference": "https://www.mbari.org/animal/giant-tubeworm/"
+    }
   },
   {
     "id": "strawberry-squid",
@@ -157,6 +199,12 @@
     ],
     "observation": "Наблюдения MBARI в естественной среде легли в основу исследования асимметричного зрения, опубликованного в 2017 году. Дневной диапазон; ночью мигрирует в более мелкие воды",
     "source": "https://www.mbari.org/animal/strawberry-squid/",
-    "sourceTitle": "MBARI · Strawberry squid"
+    "sourceTitle": "MBARI · Strawberry squid",
+    "illustration": {
+      "src": "images/species/strawberry-squid-0b1bc4f267.webp",
+      "alt": "Художественная иллюстрация клубничного кальмара: красная мантия со световыми точками и два заметно разновеликих глаза",
+      "feature": "Два разных глаза и световые органы на красной мантии",
+      "reference": "https://www.mbari.org/animal/strawberry-squid/"
+    }
   }
 ]
